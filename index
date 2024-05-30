@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Calendar Widget</title>
+    <style>
+        .calendar-container {
+            position: relative;
+            width: 100%;
+            height: 600px; /* Ajuste a altura conforme necessário */
+            border: 1px solid #ccc; /* Opção de borda */
+        }
+        .calendar-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar-container">
+        <iframe src="https://calendar.google.com/calendar/embed?src=barbara.carine%40nucleovaleboreal.com&ctz=America%2FSao_Paulo" class="calendar-iframe"></iframe>
+    </div>
+</body>
+</html>
